@@ -22,3 +22,7 @@ function aumentaTamanho(){
 }
 
 const campoSenha = document.querySelector('#campo-senha');
+const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+const letrasMinusculas = 'abcdefghijklmnopqrstuvwxyz'
+const numeros = '0123456789'
+const simbolos = '!@#$%&?/+-=*'
