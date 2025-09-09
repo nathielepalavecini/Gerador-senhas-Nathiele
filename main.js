@@ -63,7 +63,11 @@ function geraSenha() {
     campoSenha.value = senha;
     classificaSenha();
 }
+
 function classificaSenha() {
+
+    let entropia = tamanhoSenha*Math.log2(tamanhoSenha);
+
     forcaSenha.classList.remove('fraca', 'media', 'forte');
     if (tamanhoSenha > 11) {
         forcaSenha.classList.add('forte');
